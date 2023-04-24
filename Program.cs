@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using ModeloMigrations.Models;
+using ModeloMigrationsMVC.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<ModeloMigrationsContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("ModeloMigrationsContext"), builder => builder.MigrationsAssembly("ModeloMigrations")));
+builder.Services.AddDbContext<ModeloMigrationsMVCContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("ModeloMigrationsMVCContext"), builder => builder.MigrationsAssembly("ModeloMigrationsMVC")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

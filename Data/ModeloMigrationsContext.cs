@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ModeloMigrations.Models
+namespace ModeloMigrationsMVC.Models
 {
-    public class ModeloMigrationsContext : DbContext
+    public class ModeloMigrationsMVCContext : DbContext
     {
-        public ModeloMigrationsContext (DbContextOptions<ModeloMigrationsContext> options)
+        public ModeloMigrationsMVCContext (DbContextOptions<ModeloMigrationsMVCContext> options)
             : base(options)
         {
         }

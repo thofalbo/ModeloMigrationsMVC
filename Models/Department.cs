@@ -1,4 +1,4 @@
-namespace ModeloMigrations.Models
+namespace ModeloMigrationsMVC.Models
 {
     public class Department
     {

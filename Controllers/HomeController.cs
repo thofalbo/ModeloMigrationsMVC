@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ModeloMigrations.Models;
+using ModeloMigrationsMVC.Models;
 
-namespace ModeloMigrations.Controllers;
+namespace ModeloMigrationsMVC.Controllers;
 
 public class HomeController : Controller
 {
